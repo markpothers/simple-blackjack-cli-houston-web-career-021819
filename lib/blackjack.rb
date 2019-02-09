@@ -43,7 +43,7 @@ def hit?(cards)
   # code hit? here
   prompt_user
   call = get_user_input
-  while call != "s" && cards <= 21
+  while call != "s" && cards <= 100
       if call == "h" && call != "s"
         new_card = deal_card
         cards = cards + new_card
